@@ -1,0 +1,45 @@
+{
+	"name": "recipe-book",
+	"version": "1.0.0",
+	"description": "This is a solo MVP project, that I worked on during my senior phase at HackReactor.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"server-dev": "nodemon server/index.js",
+		"react-dev": "webpack -d --watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bradleymorgan05/RecipesBook.git"
+	},
+	"author": "BM",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/bradleymorgan05/RecipesBook/issues"
+	},
+	"homepage": "https://github.com/bradleymorgan05/RecipesBook/blob/master/README.md",
+	"devDependencies": {
+		"babel-core": "^6.23.3",
+		"babel-loader": "^7.1.5",
+		"babel-polyfill": "^6.26.0",
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-react": "^6.24.1",
+		"babel-preset-stage-0": "^6.24.1",
+		"compression": "^1.7.4",
+		"morgan": "^1.9.1",
+		"webpack": "^4.17.1",
+		"webpack-cli": "^3.1.0"
+	},
+	"dependencies": {
+		"axios": "^0.18.0",
+		"body-parser": "^1.17.2",
+		"express": "^4.15.0",
+		"jquery": "^3.1.1",
+		"mongodb": "^3.1.4",
+		"mongoose": "^5.2.12",
+		"mysql": "^2.15.0",
+		"react": "^16.4.2",
+		"react-dom": "^16.4.2",
+		"request": "^2.83.0"
+	}
+}
